@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "hardware/module/flaps/browser_based_flap_generator/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

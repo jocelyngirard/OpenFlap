@@ -1,4 +1,4 @@
-name: 'Generte Flaps' 
+name: 'Generate Flaps' 
 on:
   workflow_dispatch:
   pull_request:
